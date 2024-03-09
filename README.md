@@ -19,6 +19,15 @@ Thanks for checking out this front-end coding challenge.
 - I might very soon conquer my frontend fear.
 - Also feel like apart from animations. I might barely use normal css. As writing it is slow.
 
+### Using Figma is good
+
+- I simply took the image uploaded it to Figma
+- Used the frame tool and broke the design into logical pieces
+- It made the final code part much easier.
+- I just drew the box layout for things. 
+- A bit too many. But its ok in the begining
+- It made writing very intuitive.
+
 ## The challenge
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
