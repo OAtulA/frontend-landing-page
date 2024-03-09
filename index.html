@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Manage landing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="w-screen h-screen flex flex-col relative">
+    <!-- absolute elements -->
+    <div
+      class="tablet absolute z-[-1] rotate-60 right-[-2rem] top-[-8rem] h-[40rem]"
+    >
+      <img src="images/bg-tablet-pattern.svg" alt="" />
+    </div>
+    <div class="tablet absolute z-[-1] top-[30rem] left-[-25rem]">
+      <img src="images/bg-tablet-pattern.svg" alt="" />
+    </div>
+    <!-- header section -->
+    <nav class="flex mt-[2rem] mx-[153px] place-content-between min-h-[71px]">
+      <div class="logo w-[10rem] h-[50px] my-[auto]">
+        <img src="images/logo.svg" class="py-4" alt="" />
+      </div>
+      <div class="flex w-[30%] place-content-between my-[auto]">
+        <div>Pricing</div>
+        <div>Product</div>
+        <div>About Us</div>
+        <div>Careers</div>
+        <div>Community</div>
+      </div>
+      <button class="bg-orange-400 rounded-[50px] h-[60%] px-8 my-[auto]">
+        Get Started
+      </button>
+    </nav>
+    <!-- hero 1 section -->
+    <div class="hero flex mx-[153px] my-14">
+      <!-- left div -->
+      <div class="left w-[35%] my-12">
+        <h1 class="text-3xl font-bold">
+          Bring everyone together to build better products.
+        </h1>
+        <p class="mt-8 w-[57%] font-thin">
+          Manage makes it simple for software teams to plan day-to-day tasks
+          while keeping the larger team goals in view.
+        </p>
+        <button class="bg-orange-400 rounded-[50px] mt-8 px-4 py-2">
+          Get Started
+        </button>
+      </div>
+      <!-- right div -->
+      <div class="right w-[60%] overflow-hidden flex flex-wrap">
+        <!-- an svg image -->
+        <img src="images/illustration-intro.svg" alt="hero image" />
+      </div>
+    </div>
+    <!-- second section -->
+    <div class="h-[580px] w-[70%] mx-[153px] flex">
+      <div class="left w-[50%]">
+        <div class="mid text-4xl font-bold mb-8">
+          What’s different about Manage?
+        </div>
+        <p class="w-[55%] font-thin">
+          Manage provides all the functionality your team needs, without the
+          complexity. Our software is tailor-made for modern digital product
+          teams.
+        </p>
+      </div>
+      <div class="right ms-[5rem]">
+        <div class="ques flex">
+          <div class="q">01</div>
+          <div>
+            <div class="bold">Track company-wide progress</div>
+            <p>
+              See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.
+            </p>
+          </div>
+        </div>
+        <div class="ques flex">
+          <div class="q">02</div>
+          <div>
+            <div class="bold">Advanced built-in reports</div>
+            <p>
+              Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.
+            </p>
+          </div>
+        </div>
+        <div class="ques flex">
+          <div class="q">03</div>
+          <div>
+            <div class="bold">Everything you need in one place</div>
+            <p>
+              Stop jumping from one service to another to communicate, store
+              files, track tasks and share documents. Manage offers an
+              all-in-one team productivity solution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial section -->
+    <div class="h-[552px] w-screen mt-16">
+      <div class="w-full text-center">
+        <div class="mid font-bold text-2xl mx-auto mb-14">
+          What they’ve said
+        </div>
+      </div>
+      <div class="cards flex gap-3">
+        <div class="card">
+          <div class="image"><img src="images/avatar-anisha.png" alt="" /></div>
+          <div class="name">Anisha Li</div>
+          <div class="testimonial">
+            “Manage has supercharged our team’s workflow. The ability to
+            maintain visibility on larger milestones at all times keeps everyone
+            motivated.”
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/avatar-ali.png" alt="" />
+          </div>
+          <div class="name">Ali Bravo</div>
+          <div class="testimonial">
+            “We have been able to cancel so many other subscriptions since using
+            Manage. There is no more cross-channel confusion and everyone is
+            much more focused.”
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="images/avatar-richard.png" alt="" />
+          </div>
+          <div class="name">Richard Watts</div>
+          <div class="testimonial">
+            “Manage allows us to provide structure and process. It keeps us
+            organized and focused. I can’t stop recommending them to everyone I
+            talk to!”
+          </div>
+        </div>
+        <div class="card">
+          <div class="image"><img src="images/avatar-shanai.png" alt="" /></div>
+          <div class="name">Shanai Gough</div>
+          <div class="testimonial">
+            “Their software allows us to track, manage and collaborate on our
+            projects from anywhere. It keeps the whole team in-sync without
+            being intrusive.”
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-12">
+        <button
+          class="bg-orange-400 px-6 py-2 rounded-[50px] text-xl text-white"
+        >
+          Get Started
+        </button>
+      </div>
+    </div>
+    <!-- down section -->
+    <div
+      class="overflow-hidden relative bg-orange-500 flex justify-between pb-[10rem] py-16 mt-20 pe-[12rem] ps-[8rem]"
+    >
+      <div class="z-10 text-3xl w-[25rem] font-bold text-white">
+        Simplify how your team works today.
+      </div>
+      <button style="background-color: white;"
+        class="z-10 opacity-[100] py-0 text-orange-500 px-2 rounded-[50px]"
+      >
+        Get Started
+      </button>
+      <!-- absolute tablets -->
+
+      <div
+        class="tablet absolute z-[-1] rotate-60 right-[-35rem] top-[-41rem] h-[10rem]"
+      >
+        <img src="images/bg-tablet-pattern.svg" class="opacity-15" alt="" />
+      </div>
+      <div class="tablet absolute z-[-1] left-[-6rem] opacity-10 top-[-3rem]">
+        <img src="images/bg-tablet-pattern.svg" alt="" />
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="px-[8rem] pt-[4rem] bg-black text-white flex justify-around">
+      <div class="logo text-white">
+        <img src="images/logo.svg" class="filter invert" alt="" />
+        <div class="icons mt-16 flex gap-2">
+          <img src="images/icon-facebook.svg" alt="" />
+          <img src="images/icon-youtube.svg" alt="" />
+          <img src="images/icon-twitter.svg" alt="" />
+          <img src="images/icon-pinterest.svg" alt="" />
+          <img src="images/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+      <div class="our_pages">
+        <div>Home</div>
+        <div>Pricing</div>
+        <div>Products</div>
+        <div>About Us</div>
+      </div>
+
+      <div class=" ">
+        <div>Careers</div>
+        <div class="text-orange-500">Community</div>
+        <div>Privacy Policy</div>
+      </div>
+
+      <div class="form">
+        <input
+          type="text"
+          placeholder="Email Address"
+          class="w-[10rem] bg-white py-2 px-4 rounded-[50px]"
+        />
+        <button class="ms-4 bg-orange-400 py-2 rounded-[50px] px-6">Go</button>
+        <div class="mt-10 font-thin text-sm ps-20">
+          Copyright 2020. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://github.com/OAtulA">Atul Anand Oraon</a>.
+    </div>
+  </body>
+</html>

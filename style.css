@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+/* FOnt weights
+400, 500, 700
+*/
+
+/* Primary colors */
+.clr-red {
+  color: hsl(12, 88%, 59%);
+}
+
+.clr-dark_blue {
+  color: hsl(228, 39%, 23%);
+}
+
+/* Neutral colors */
+.clr-grey_blue {
+  color: hsl(227, 12%, 61%);
+}
+.clr-very_dark_blue {
+  color: hsl(233, 12%, 13%);
+}
+.clr-very_pale_red {
+  color: hsl(13, 100%, 96%);
+}
+.clr-very_light_grey {
+  color: hsl(0, 0%, 98%);
+}
+
+@layer utilities {
+  .q {
+    @apply bg-orange-400 decoration-white px-4 py-1 h-fit rounded-[50px] me-6;
+  }
+  .bold {
+    @apply font-semibold pb-4;
+  }
+  .bold ~ p {
+    @apply pb-8;
+  }
+  .card {
+    @apply w-[540px] h-[223px] text-wrap bg-slate-200;
+  }
+  .testimonial {
+    @apply px-4 text-center font-thin mt-4;
+  }
+  .name {
+    @apply font-bold text-sm text-center mt-4;
+  }
+  .image {
+    @apply rounded-full;
+  }
+  .image > img {
+    @apply h-16 mx-auto mt-[-2rem];
+  }
+  body > * {
+    z-index: 10;
+  }
+  .our_pages div {
+    @apply my-4;
+  }
+}
