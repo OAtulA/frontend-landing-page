@@ -10,6 +10,15 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+## Learnings 
+
+- A combination of rem, vh, % and the tailwind unit works best for me
+- Oh man Tailwind is so lot cleaner and intuitive to write.
+- Anyone who does not like css but want to use tailwind will love it.
+- Its not very easy for me still being able to code the design feels good.
+- I might very soon conquer my frontend fear.
+- Also feel like apart from animations. I might barely use normal css. As writing it is slow.
+
 ## The challenge
 
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
