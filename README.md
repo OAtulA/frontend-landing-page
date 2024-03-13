@@ -1,5 +1,7 @@
 # Frontend Mentor - Manage landing page
 
+[Live URL](https://basic-landing-page-forntend-mentor.netlify.app/)
+
 ![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
